@@ -1,0 +1,37 @@
+.a {
+	display: flex;
+	grid-row: 1 / 4;
+}
+
+.pallet {
+	box-sizing: 100px;
+	border-color: black;
+	flex: 1;
+	grid-row: 1 / 4;
+
+}
+
+.canvas {
+	flex: 3;
+	grid-row: 1 / 4;
+	max-width: 500px;
+}
+
+.left, .right {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+/*Outer Container Settings */
+#grid-container {width:100%;text-align:center;margin:0 auto;}
+/*End of Outer Container Settings */
+
+
+.grid-image {
+	display: inline-block;
+	box-sizing: border-box;
+	min-height: 200px;
+	min-width: 200px;
+	max-width: 200px;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
